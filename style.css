@@ -1,0 +1,300 @@
+/* Sass Document */
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Dosis|Raleway|Source+Sans+Pro|Muli");
+* {
+  box-sizing: border-box;
+  outline-style: none; }
+  *:hover, *:focus, *:visited, *.active, *.focus, *.visited {
+    outline-style: none;
+    outline: 0; }
+
+.btn:active:focus, .btn:focus {
+  otuline-style: none;
+  outline: none;
+  outline-offset: 0; }
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  padding-top: 50px; }
+
+row:before,
+row:after {
+  content: "";
+  display: table; }
+
+row:after {
+  clear: both; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2% 2% 4% 2%; }
+
+p {
+  font-family: Muli, sans-serif;
+  line-height: 1.9;
+  color: #000; }
+
+h1, h2, h3, h4, h5 {
+  font-family: Bree Serif, serif; }
+
+/*NAV */
+.brand {
+  max-width: 300px;
+  float: left; }
+  .brand h2 {
+    font-size: 1.5em;
+    color: #777; }
+  .brand span {
+    color: #eee; }
+
+.navbar-nav {
+  float: right;
+  padding-top: 0.5%;
+  font-family: Muli, sans-serif;
+  font-weight: bold; }
+
+.navbar .container {
+  padding: 0; }
+
+.navbar-default {
+  background-color: #8dd3c3;
+  border: none; }
+
+/*JUMBOTRON */
+.jumbotron {
+  height: calc(60vh - 50px);
+  width: 100%;
+  background: url("images/bike-jumbo.jpg") 0/cover;
+  padding: 0; }
+
+.transparent {
+  background-color: rgba(141, 211, 195, 0.95);
+  height: 100%;
+  width: 100%; }
+  .transparent h1 {
+    margin: 0;
+    padding-top: 10%;
+    text-align: center;
+    font-family: Bree Serif, serif;
+    color: #777;
+    font-size: 3.5em; }
+  .transparent h2 {
+    text-align: center;
+    font-family: Bree Serif, serif;
+    color: #888; }
+  .transparent .btn-lg {
+    margin: 2% auto;
+    width: 100px;
+    display: block; }
+  .transparent .btn-default {
+    background-color: #ff9067;
+    font-family: Muli, sans-serif;
+    font-weight: bold;
+    color: #555;
+    border-radius: 0; }
+    .transparent .btn-default:hover {
+      background-color: #f7ad87; }
+
+/*BLURB */
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.blurb {
+  width: 30%;
+  text-align: center;
+  margin-top: 3%;
+  /*p
+   * font-weight: 700
+   * color: #777*/	 */ }
+  .blurb h4, .blurb p {
+    text-align: center; }
+  .blurb i {
+    color: #ff9067;
+    font-size: 4em; }
+
+/*GALLERY */
+.col-25 {
+  float: left;
+  width: 25%;
+  height: 250px; }
+  .col-25:hover .layer-aqua {
+    display: block; }
+  .col-25:hover .layer-coral {
+    display: block; }
+
+.cave {
+  background: url("images/th-cave.jpg") 50% 50%/cover; }
+
+.coral {
+  /*background: url("images/th-green-bike.jpg") 50% 50%/cover */
+  background-color: #ff9067; }
+
+.man-bike {
+  background: url("images/th-man-bike.jpg") 50% 50%/cover; }
+
+.bikes {
+  background: url("images/th-bikes.jpg") 50% 50%/cover; }
+
+.water-bike {
+  background: url("images/th-water-bike.jpg") 50% 50%/cover; }
+
+.children {
+  background: url("images/th-children.jpg") 50% 50%/cover; }
+
+.aqua {
+  /*background: url("images/th-jeans.jpg") 50% 50%/cover */
+  background-color: #8dd3c3; }
+
+.saddle {
+  background: url("images/th-saddle.jpg") 50% 50%/cover; }
+
+.color-text h4 {
+  text-align: center;
+  padding-top: 4%; }
+.color-text p {
+  text-align: justify;
+  padding: 7%; }
+
+.layer-coral,
+.layer-aqua {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: none; }
+  .layer-coral i,
+  .layer-aqua i {
+    margin-top: 120px;
+    font-size: 2.5em;
+    color: #333; }
+  .layer-coral a,
+  .layer-aqua a {
+    text-decoration: none; }
+
+.layer-aqua {
+  background-color: rgba(141, 211, 195, 0.7); }
+
+.layer-coral {
+  background-color: rgba(255, 127, 80, 0.7); }
+
+/*ABOUT */
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 120px; }
+
+.face {
+  width: 20%; }
+  .face p:nth-child(3) {
+    color: #fa652e; }
+  .face i {
+    color: #c0c0c0;
+    border: 1px solid #d7d7d7;
+    padding: 4px;
+    font-size: 1.5em;
+    width: 40px;
+    line-height: 30px;
+    text-align: center; }
+    .face i:hover {
+      color: #777; }
+
+/*JOIN */
+.join {
+  margin: 5% 0; }
+
+.photo {
+  background: url("images/women-blue.jpeg") 50% 50%/cover; }
+
+.text-50 {
+  width: 50%;
+  height: 50vh;
+  float: left; }
+
+.coral {
+  color: #ff9067; }
+
+.carousel {
+  padding: 10%; }
+
+.carousel-inner p {
+  font-family: Bree Serif, serif;
+  font-style: italic;
+  color: #444;
+  font-size: 1.4em;
+  font-weight: 100; }
+.carousel-inner span {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-style: normal; }
+
+.carousel-indicators li {
+  border-color: #444; }
+.carousel-indicators .active {
+  background-color: #444; }
+
+/*QUOTE */
+#quote {
+  text-align: center;
+  margin: 5% 0; }
+  #quote p {
+    text-transform: uppercase;
+    margin-bottom: 4%; }
+  #quote .btn-default {
+    border-radius: 0;
+    background-color: #eee; }
+
+/*FOOTER */
+.date {
+  background-color: #4d5755;
+  padding-top: 4%; }
+  .date p, .date h4 {
+    color: #eee; }
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center; }
+
+.text {
+  width: 30%; }
+
+.social i {
+  color: #eee;
+  border: 1px solid #d7d7d7;
+  padding: 4px;
+  font-size: 1.5em;
+  width: 40px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 7%; }
+  .social i:hover {
+    color: #8dd3c3; }
+
+.rights {
+  background-color: #454642;
+  line-height: 1.2;
+  text-align: center;
+  color: #ccc; }
+  .rights span {
+    color: #ccc;
+    font-size: 1em; }
+  .rights i {
+    color: #fa652e; }
+  .rights p {
+    margin: 0;
+    padding: 0;
+    color: #999;
+    font-size: 0.9em; }
+
+/*# sourceMappingURL=style.css.map */
