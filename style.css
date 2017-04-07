@@ -49,15 +49,20 @@ h1, h2, h3, h4, h5 {
   float: left; }
   .brand h2 {
     font-size: 1.5em;
-    color: #777; }
+    color: #555; }
   .brand span {
-    color: #eee; }
+    color: #fff; }
 
 .navbar-nav {
   float: right;
   padding-top: 0.5%;
   font-family: Muli, sans-serif;
   font-weight: bold; }
+
+.navbar-default .navbar-nav li a {
+  color: #555; }
+  .navbar-default .navbar-nav li a:hover {
+    color: #777; }
 
 .navbar .container {
   padding: 0; }
@@ -82,12 +87,12 @@ h1, h2, h3, h4, h5 {
     padding-top: 10%;
     text-align: center;
     font-family: Bree Serif, serif;
-    color: #777;
+    color: #555;
     font-size: 3.5em; }
   .transparent h2 {
     text-align: center;
     font-family: Bree Serif, serif;
-    color: #888; }
+    color: #777; }
   .transparent .btn-lg {
     margin: 2% auto;
     width: 100px;
@@ -97,7 +102,8 @@ h1, h2, h3, h4, h5 {
     font-family: Muli, sans-serif;
     font-weight: bold;
     color: #555;
-    border-radius: 0; }
+    border-radius: 0;
+    border: none; }
     .transparent .btn-default:hover {
       background-color: #f7ad87; }
 
@@ -121,6 +127,9 @@ h1, h2, h3, h4, h5 {
     font-size: 4em; }
 
 /*GALLERY */
+#gallery {
+  padding-top: 50px; }
+
 .col-25 {
   float: left;
   width: 25%;

@@ -9,8 +9,8 @@ $salmon: #ff9067
 $font-head: Bree Serif, serif 
 $font: Muli, sans-serif
 $white: #fff
-$grey: #777
-$grey-light: #888
+$grey: #555
+$grey-light: #777
 $salmon-light: #f7ad87
 
 
@@ -79,13 +79,21 @@ h1, h2, h3, h4, h5,
 		font-size: 1.5em
 		color: $grey
 	span
-		color: #eee
+		color: #fff
 	
 .navbar-nav
 	float: right
 	padding-top: 0.5%
 	font-family: $font
 	font-weight: bold
+	
+.navbar-default
+	.navbar-nav
+		li
+			a
+				color: $grey
+				&:hover 
+					color: $grey-light
 	
 .navbar 
 	.container
@@ -131,6 +139,7 @@ h1, h2, h3, h4, h5,
 		font-weight: bold
 		color: #555
 		border-radius: 0
+		border: none
 		
 		&:hover
 			background-color: $salmon-light
@@ -160,6 +169,10 @@ h1, h2, h3, h4, h5,
 		font-size: 4em
 		
 /*GALLERY*/
+
+#gallery
+	padding-top: 50px
+
 
 .col-25
 	float: left
